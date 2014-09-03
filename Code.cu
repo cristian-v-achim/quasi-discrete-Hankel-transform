@@ -48,7 +48,7 @@ __global__
 __launch_bounds__(tpb,minnbpsmp) 
 void gpu_ht_transf_otpp(const double * __restrict__ in,double * __restrict__ out,const double * __restrict__ invmonetwo,const double2 * __restrict__ monetwo, const double * __restrict__ bessolutions,const int nr)
 
-//void gpu_ht_transf_otpp(double *in,double *out,double *invmonetwo,const double2 *monetwo, double *bessolutions,const int nr)
+
 {      
    int i = blockIdx.x*tpb+threadIdx.x;
    double aa;
