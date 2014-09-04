@@ -1,9 +1,9 @@
 quasi-discrete-Hankel-transform
 ===============================
 
-Quasi-discrete Hankel transform for CUDA enable gpu.
+Quasi-discrete Hankel transform for CUDA enabled gpu.
 
-Example of how to do CUDA quasi-discreta Hankel transform. 
+Example of how to do CUDA quasi-discret Hankel transform. 
 The space grid is obtained from the solutions of the first kind Bessel functions j0(x)=0.  The solutions must be provided in advanced in the file  bessel_zeros.in. 
 The same function is used for for doing forward or backward transform. 
 If a forward (r->k) transform is made the results must be multiplied by rmax/kmax..
