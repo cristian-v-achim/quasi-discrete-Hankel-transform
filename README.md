@@ -9,3 +9,5 @@ The same function is used for for doing forward or backward transform.
 If a forward (r->k) transform is made the results must be multiplied by rmax/kmax..
 All the arrays needed for transform are kept in a structure which is iniliazed by the hankelinit function..
 Only double precision is available. The flag -arch=sm_xx should have xx>=20 .
+
+Lots of thanks to njuffa for giving very good advice on devtalk nvidia forum.
